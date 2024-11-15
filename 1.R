@@ -107,7 +107,6 @@ for (modelo in names(modelos)) {
   cat("AUC:", round(auc(rocs[[modelo]]), 2), "\n")
 }
 
-# ... Código anterior hasta la comparación de resultados ...
 
 # Comparación de Resultados
 cat("Comparación de Resultados\n")
