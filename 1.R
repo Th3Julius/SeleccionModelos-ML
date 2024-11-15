@@ -76,7 +76,7 @@ roc_xgb <- roc(test_labels, pred_xgb)
 roc_svm <- roc(test_labels, pred_svm)
 roc_log <- roc(test_labels, pred_log)
 
-# Comparación de Resultados
+########################################## Comparación de Resultados#######################################
 cat("Comparación de Resultados\n")
 modelos <- list("Árbol de Decisión" = resultado_arbol, "Random Forest" = resultado_rf, "XGBoost" = resultado_xgb, 
                 "SVM" = resultado_svm, "Regresión Logística" = resultado_log)
@@ -108,7 +108,7 @@ for (modelo in names(modelos)) {
 }
 
 
-# Comparación de Resultados
+########################## Comparación de Resultados####################################
 cat("Comparación de Resultados\n")
 modelos <- list("Árbol de Decisión" = resultado_arbol, "Random Forest" = resultado_rf, "XGBoost" = resultado_xgb, 
                 "SVM" = resultado_svm, "Regresión Logística" = resultado_log)
